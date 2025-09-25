@@ -1,0 +1,7 @@
+
+{{ t.name }}:
+  description: |-
+    {{ t.description }}
+  expected_output: "{{ t.expected_output | default("Best possible answer.") }}"
+  agent: "{{ t.agent }}"
+  
